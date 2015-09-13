@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Priller</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="title_activity_display_message">You entered</string>
+    <string name="hello_world">Welcome</string>
+    <string name="title_activity_second">secondActivity</string>
+    <string name="title_activity_map">mapActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="activity_name">Map</string>
+    <string name="location_fetch">Fetch Location</string>
+    <string name="information_display">Display information</string>
+    <string name="location_information"> </string>
+    <string name="title_activity_display_location_information">DisplayLocationInformation</string>
+    <string name="location_title">Information on your current location</string>
+    <string name="richLocationInformation"> </string>
+    <string name="weatherTitle">Weather</string>
+    <string name="weatherDataInfo"> </string>
+    <string name="goBackToFirst">Go back to main activity</string>
+    <string name="dummyActivity">Dummy activity</string>
+    <string name="mapEnter">Open map</string>
+</resources>
