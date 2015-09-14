@@ -151,9 +151,12 @@ public class MapsActivity extends FragmentActivity implements
      * and puts the currentLocation object into the intent and starting it.
      */
     public void displayLocationInformation(View v) {
-        Intent i = new Intent(this, DisplayLocationInformation.class);
-        i.putExtra(LOCATION_OBJECT, currentLocation);
-        startActivity(i);
+        if(currentLocation != null) {
+            Intent i = new Intent(this, DisplayLocationInformation.class);
+            i.putExtra(LOCATION_OBJECT, currentLocation);
+            startActivity(i);
+        }
+        else Toast.makeText(this, "Unable to display location data without your location\nPlease fetch location first", Toast.LENGTH_SHORT).show();
     }
 
     /**
